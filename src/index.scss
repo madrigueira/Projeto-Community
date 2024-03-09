@@ -1,0 +1,21 @@
+// FONTS - 'Montserrat' & 'Just Me Again Down Here'
+@import url('https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+// COLORS
+$bg: #F5F7FF;
+$white: #fff;
+$blue: #224C8C;
+$black: #000;
+
+// MAIN
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+// BODY
+body{
+  background-color: $bg;
+}

@@ -1,0 +1,58 @@
+@import "../../index.scss";
+
+.Header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 1300px;
+  padding: 30px 0;
+
+  .logo{
+    width: 350px;
+    object-fit: contain;
+    margin-bottom: 15px;
+  }
+
+  nav{
+    display: flex;
+    gap: 60px;
+    
+    a{
+      font-family: "Just Me Again Down Here", "Montserrat", sans-serif;
+      font-size: 34px;
+      text-decoration: none;
+      line-height: 28px;
+      color: $black;
+      transition: .2s;
+
+      &:hover{
+        color: lighten($black, 40);
+      }
+
+      &#logar{
+        padding: 0 20px 12px 20px;
+        background-color: $blue;
+        border-radius: 15px;
+        color: $white;
+
+        &:hover{
+          background-color: lighten($blue, 5);
+        }
+      }
+    }
+  }
+
+  .profile{
+    display: flex;
+    padding: 3px;
+    border: 3px solid $blue;
+    border-radius: 100px;
+
+    img{
+      width: 45px;
+      aspect-ratio: 1/1;
+      border-radius: 100px;
+    }
+  }
+}
