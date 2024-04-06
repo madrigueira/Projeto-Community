@@ -1,0 +1,21 @@
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+// COLORS
+$bg: #EEEEEE;
+$white: #fff;
+$yellow: #FFC938;
+$darkGrey: #171717;
+
+// MAIN
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: $darkGrey;
+}
+
+body{
+  background-color: $bg;
+}
