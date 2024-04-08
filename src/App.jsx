@@ -1,11 +1,17 @@
 import React from 'react'
 import "./index.scss"
-import {HeaderMain} from "./components/HeaderMain"
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { LoginPage } from './pages/LoginPage'
+import { HeaderMain } from './components/HeaderMain'
 
 export const App = () => {
   return (
     <div className='App'>
-      <HeaderMain />
+      <Router>
+        <Routes>
+          <Route path="/" element={<LoginPage/>}></Route>
+        </Routes>
+      </Router>
     </div>
   )
 }
