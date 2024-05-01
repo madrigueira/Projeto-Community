@@ -9,7 +9,7 @@ export const App = () => {
     <div className='App'>
       <Router>
         <Routes>
-          <Route path="/" element={<LoginPage/>}></Route>
+          <Route path="/" element={<HeaderMain/>}></Route>
         </Routes>
       </Router>
     </div>
